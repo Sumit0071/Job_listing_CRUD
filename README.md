@@ -37,8 +37,8 @@ A web application built with Node.js and Express that includes user management, 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
-   cd your-repository
+   git clone https://github.com/Sumit0071/Job_listing_CRUD.git
+   cd BACKEND_INTERNSHIP_ASSIGNMENT
    ```
 
 2. Install Dependencies
