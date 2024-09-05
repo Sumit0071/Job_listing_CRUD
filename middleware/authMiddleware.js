@@ -7,7 +7,15 @@ export const protect = async ( req, res, next ) => {
         try {
             token = req.headers.authorization.split( ' ' )[1];
             const decoded = jwt.verify( token, process.env.JWT_SECRET );
-            req.user = await User.findById( decoded.id ).select( '-password' );
+
+            // Find user by custom 'id' field
+            req.user = await User.findOne( { id: decoded.id } ).select( '-password' );
+            console.log( req.user )
+            // Ensure the user was found
+            if ( !req.user ) {
+                return res.status( 404 ).json( { message: 'User not found' } );
+            }
+
             next();
         } catch ( error ) {
             res.status( 401 ).json( { message: 'Not authorized, token failed' } );
