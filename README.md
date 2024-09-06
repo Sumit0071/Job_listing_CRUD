@@ -98,3 +98,5 @@ You can write and run tests using a testing framework of your choice (e.g., Moch
 4. Test your changes.
 5. Submit a pull request.
 
+##Deployment##
+production is currently deployed on railway at `https://joblistingcrud-production.up.railway.app`
