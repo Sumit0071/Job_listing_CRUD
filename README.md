@@ -38,7 +38,7 @@ A web application built with Node.js and Express that includes user management, 
 
    ```bash
    git clone https://github.com/Sumit0071/Job_listing_CRUD.git
-   cd BACKEND_INTERNSHIP_ASSIGNMENT
+   
    ```
 
 2. Install Dependencies
