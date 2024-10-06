@@ -100,3 +100,8 @@ You can write and run tests using a testing framework of your choice (e.g., Moch
 
 ##Deployment##
 production is currently deployed on railway at `https://joblistingcrud-production.up.railway.app`
+
+
+
+<h2>In case anyone want to read about it you can read here</h2>
+<a href="https://sumit071.hashnode.dev/create-a-job-listing-crud-rest-api-using-javascript-nodejs-mongodb">Hashnode link</a>
